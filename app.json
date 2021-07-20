@@ -9,11 +9,11 @@
     "stack": "container",
     "env": {
         "AMDI_SESSION": {
-            "description": "Qr කේතය scan කළ පසුව ලැබෙන කේතයන්",
+            "description": "Qr කේතය ඇතුළු කළ පසුව ලැබෙන කේතයන්",
             "required": true
         },
         "SUDO": {
-            "description": "ඔබ එය භාවිතා කරන්නේ කෙසේදැයි නොදන්නේ නම් හිස්ව තබන්න! සුඩෝ මාදිලිය; ඔබගේ අංකය ජාත්‍යන්තර අංකයක් විය යුතුය. එබැවින් රටේ කේතයෙන් පසුව ඔබේ අංකය තිබිය යුතුය. උදාහරණය: 947xxxxxxxx (Sri lanka අංකය 94)",
+            "description": "ඔබ මේය භාවිතා නොදන්නේ නම් අපගේ Whatsappසමුහයට එකතු වන්න link https://chat.whatsapp.com/KEOQxAmQtcw1RXdMKK3VW9  ",
             "required": false
         },
         "LANGUAGE": {
@@ -22,12 +22,12 @@
             "value": "En"
         },
         "HANDLERS": {
-            "description": "Bot ගේ ක්‍රියාකාරිත්වය සඳහා යෙදිය යුතු සලකුනු",
+            "description": "Bot යෙදිය යුතු සලකුනු",
             "required": true,
             "value": "^[.]"
         },
         "CHAT_BOT": {
-            "description": "AI chat bot සක්‍රිය / අක්‍රිය කිරීමට. AI chat bot සක්‍රිය කිරීමට true ද, AI chat bot අක්‍රිය කිරීමට false ද යොදන්න.",
+            "description": "සක්‍රිය / අක්‍රිය කිරීමට.",
             "required": true,
             "value": "true"
         },
@@ -42,35 +42,35 @@
             "value": "true"
         },
         "HEROKU_API_KEY": {
-            "description": "https://dashboard.heroku.com/account මෙම link ක්ලික් කරන්න. API key සඳහා පහළට scroll කරන්න. ඉන්පසු Reveal බොත්තම ක්ලික් කරන්න. එම API key copy කර පහත හිස් කොටුව paste කරන්න.",
+            "description": " API key copy කර පහත හිස් කොටුව paste කරන්න.",
             "required": true
         },
         "HEROKU_APP_NAME": {
-            "description": "ඉහත App name එකම යොදන්න.",
+            "description": "පෙර යෙදූ App name එකම යොදන්න.",
             "required": true
         },
         "MUTE_MESSAGE": {
-            "description": "Group එකක් mute කිරිමෙදි ලැබෙන පනිවිඩය. ඔබට මෙම පණිවිඩය වෙනස් කිරීමට අවශ්‍ය නැතිනම් default ටයිප් කරන්න.",
+            "description": " අවශ්‍ය නැති නම් default ටයිප් කරන්න.",
             "required": false,
             "value": "default"
         },
         "BLOCK_CHAT": {
-            "description": "බොට් වැඩ නොකරන චැට් එක තෝරන්න. Ex: 947xxxxxxxx && 947xxxxxxxx හෝ 947xxxxxxxx,947xxxxxxxx",
+            "description": "බොට් වැඩ නොකරන චැට් එක තෝරන්න. Ex: 947xxxxxxxx && 947xxxxxxxx ",
             "required": false,
             "value": "96176912958-1458298055,"
         },
         "UNMUTE_MESSAGE": {
-            "description": "Group එකක් unmute කිරිමෙදි ලැබෙන පනිවිඩය.",
+            "description": "unmute කිරිමෙදි ලැබෙන පනිවිඩය.",
             "required": false,
             "value": "default"
         },
         "BLOCK_MESSAGE": {
-            "description": "වෙනස් කළ හැකි චැට් block දැනුම්දීම. ඔබට මෙම පණිවිඩය වෙනස් කිරීමට අවශ්‍ය නැතිනම් default ටයිප් කරන්න.",
+            "description": " අවශ්‍ය නැතිනම් default ටයිප් කරන්න.",
             "required": false,
             "value": "default"
         },
         "UNBLOCK_MESSAGE": {
-            "description": "වෙනස් කළ හැකි චැට් unblock දැනුම්දීම. ඔබට මෙම පණිවිඩය වෙනස් කිරීමට අවශ්‍ය නැතිනම් default ටයිප් කරන්න.",
+            "description": " වෙනස් කිරීමට අවශ්‍ය නැතිනම් default ටයිප් කරන්න.",
             "required": false,
             "value": "default"
         },
@@ -80,71 +80,71 @@
             "value": "private"
         },       
         "DEBUG": {
-            "description": "ඔබ මෙය නොදන්නේ නම්. එය අත්හරින්න.",
+            "description": " එය අත්හරින්න.",
             "required": true,
             "value": "false"
         },
          "ALIVE_LOGO": {
-            "description": "Alive message පින්තූරය වෙනස් කිරීම සඳහා ඔබගේ image link පහත සඳහන් කරන්න. (ඔබට අවශ්‍ය පින්තුරය https://imgbb.com වෙබ්සයිට් හි upload කර එම ලින්ක් මෙහි යොදන්න.)",
+            "description": "Alive message සදහා ඔබ කැමති පිංතූරය link එකක් ඇතුලත් කරන්න )",
             "required": true,
-            "value": "https://i.ibb.co/r3wmpwr/LOGO.jpg"
+            "value": ""
         },
         "WELCOME_LOGO": {
-            "description": "Welcome message video වෙනස් කිරීම සඳහා ඔබගේ video link පහත සඳහන් කරන්න.(ඔබට අවශ්‍ය video එක https://www.mailboxdrive.com/upload/ වෙබ්සයිට් හි upload කර එම ලින්ක් මෙහි යොදන්න.)",
+            "description": "Welcome message සදහා video යේදිම සදහා, විඩියෝවේ link එක පහලින් යොදන්න )",
             "required": true,
-            "value": "https://tinyurl.com/queenamdi-welcome"
+            "value": "" 
         },
         "BYE_LOGO": {
-            "description": "Goodbye message video වෙනස් කිරීම සඳහා ඔබගේ video link පහත සඳහන් කරන්න.(ඔබට අවශ්‍ය video එක https://www.mailboxdrive.com/upload/ වෙබ්සයිට් හි upload කර එම ලින්ක් මෙහි යොදන්න.)",
+            "description": "Goodbye message video යෙදිම සදහා විඩියෝවේ link එක පහලින් යොදන්න)",
             "required": true,
-            "value": "https://tinyurl.com/queenamdi-goodbye"
+            "value": "." 
         },
         "REMOVE_BG_API_KEY": {
-            "description": "මෙහිදි ඔබ remove.bg යන website එකට පිවිස signup වී, API key එකක් ලබාගන්න. එම API key එක මෙම හිස්තැනේ දමන්න.",
+            "description": " ඔබ remove.bg යන website එකේන් ලබා ගත් API KEY එක යොදන්න ",
             "required": false
         },
         "ALIVE_MESSAGE": {
-            "description": "Bot online ද නැද්ද යන්න පරීක්ෂා කරන විට ලැබෙන මැසේජ් එක. මෙය වෙනස් කිරිමට අත්‍යාවශ්‍යම නොවේ.",
+            "description": "වෙනස් කිරිමට අත්‍යාවශ්‍යම නොවේ.",
             "required": false,
             "value": "default"
         },
         "BAN_MESSAGE": {
-            "description": "යම් කෙනෙකු ඔබ .ban ලෙස කොමාන්ඩ් කර remove කලවිට ලැබෙන message එක. ඔබට මෙම පණිවිඩය වෙනස් කිරීමට අවශ්‍ය නැතිනම් default ටයිප් කරන්න.",
+            "description": " මෙම පණිවිඩය වෙනස් කිරීමට අවශ්‍ය නැතිනම් default ටයිප් කරන්න.",
             "required": false,
             "value": "default"
         },
         "ADD_MESSAGE": {
-            "description": "ඔබට මෙම පණිවිඩය වෙනස් කිරීමට අවශ්‍ය නැතිනම් default ටයිප් කරන්න.",
+            "description": "මෙම පණිවිඩය වෙනස් කිරීමට අවශ්‍ය නැතිනම් default ටයිප් කරන්න.",
             "required": false,
             "value": "default"
         },
         "KICKME_MESSAGE": {
-            "description": "ඔබට මෙම පණිවිඩය වෙනස් කිරීමට අවශ්‍ය නැතිනම් default ටයිප් කරන්න.",
+            "description": " මෙම පණිවිඩය වෙනස් කිරීමට අවශ්‍ය නැතිනම් default ටයිප් කරන්න.",
             "required": false,
             "value": "default"
         },
         "PROMOTE_MESSAGE": {
-            "description": "ඔබට මෙම පණිවිඩය වෙනස් කිරීමට අවශ්‍ය නැතිනම් default ටයිප් කරන්න.",
+            "description": " මෙම පණිවිඩය වෙනස් කිරීමට අවශ්‍ය නැතිනම් default ටයිප් කරන්න.",
             "required": false,
             "value": "default"
         },
         "DEMOTE_MESSAGE": {
-            "description": "ඔබට මෙම පණිවිඩය වෙනස් කිරීමට අවශ්‍ය නැතිනම් default ටයිප් කරන්න.",
+            "description": " මෙම පණිවිඩය වෙනස් කිරීමට අවශ්‍ය නැතිනම් default ටයිප් කරන්න.",
             "required": false,
             "value": "default"
         },
         "AFK_MESSAGE": {
-            "description": "ඔබට මෙම පණිවිඩය වෙනස් කිරීමට අවශ්‍ය නැතිනම් default ටයිප් කරන්න.",
+            "description": " මෙම පණිවිඩය වෙනස් කිරීමට අවශ්‍ය නැතිනම් default ටයිප් කරන්න.",
             "required": false,
             "value": "default"
         },
         "NO_ONLINE": {
-            "description": "මෙය වෙනස් කිරිමට අත්‍යාවශ්‍යම නොවේ.",
+            "description": "අත්‍යවශ්‍ය නොවේ.",
             "required": false,
             "value": "true"
         },
         "COFFEEHOUSE_API_KEY": {
-            "description": "එය අත්හරින්න. අපි ඔබට මෙය ලබා දෙනවා.",
+            "description": "එය අත්හරින්න. ",
             "required": false,
             "value": "true"
         }
